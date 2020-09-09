@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MyApp">
+
+    <test name="Test App">
+        <classes>
+            <class name="tests.Test_001_LoginFunctionality"/>
+            <class name="tests.Test_002_ContinueMyTrial"/>
+            <class name="tests.Test_003_CheckActivityPage"/>
+            <class name="tests.Test_004_NavigateToMyDevices"/>
+            <class name="tests.Test_005_DisplayNameOfDevicesWithRisk"/>
+            <class name="tests.Test_006_SecondDeviceNavigation"/>
+        </classes>
+    </test>
+
+</suite>
+
